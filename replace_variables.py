@@ -21,3 +21,17 @@ a = a["b"]
 a = [a,b]
 b = a[0]
 a = a[1]
+
+#Third solution its the easiest one to approach in terms of knowledge of theory
+if a<b:
+    b = b-a
+    a = a+b
+    b = a-b
+else:
+    a = a-b
+    b = a+b
+    a = b-a
+
+
+# These were all i could think of 
+# Will be glad if anyone else contributes to this
